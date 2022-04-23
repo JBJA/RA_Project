@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ARInteractionsManager
     - DataManager
     - GameManager
     - Item
@@ -23,6 +24,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARPointCloudManager
     - UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer
     - UnityEngine.XR.ARFoundation.ARPoseDriver
+    - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
     Unity.XR.Management.Editor.dll:
@@ -68,6 +70,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -75,63 +79,67 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1454}
+      Script: {instanceID: 1458}
     - Class: 114
-      Script: {instanceID: 1614}
+      Script: {instanceID: 1460}
     - Class: 114
-      Script: {instanceID: 1710}
+      Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 1802}
+      Script: {instanceID: 1722}
     - Class: 114
-      Script: {instanceID: 2046}
+      Script: {instanceID: 1814}
     - Class: 114
-      Script: {instanceID: 2146}
+      Script: {instanceID: 2058}
     - Class: 114
-      Script: {instanceID: 2294}
+      Script: {instanceID: 2160}
     - Class: 114
-      Script: {instanceID: 2510}
+      Script: {instanceID: 2226}
     - Class: 114
-      Script: {instanceID: 2542}
+      Script: {instanceID: 2310}
     - Class: 114
-      Script: {instanceID: 2634}
+      Script: {instanceID: 2526}
     - Class: 114
-      Script: {instanceID: 2736}
+      Script: {instanceID: 2560}
     - Class: 114
-      Script: {instanceID: 2856}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 3072}
+      Script: {instanceID: 2756}
     - Class: 114
-      Script: {instanceID: 3086}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 3186}
+      Script: {instanceID: 3110}
     - Class: 114
-      Script: {instanceID: 3374}
+      Script: {instanceID: 3208}
     - Class: 114
-      Script: {instanceID: 3380}
+      Script: {instanceID: 3396}
     - Class: 114
-      Script: {instanceID: 3384}
+      Script: {instanceID: 3402}
     - Class: 114
-      Script: {instanceID: 3444}
+      Script: {instanceID: 3406}
     - Class: 114
-      Script: {instanceID: 3570}
+      Script: {instanceID: 3466}
     - Class: 114
-      Script: {instanceID: 3820}
+      Script: {instanceID: 3592}
     - Class: 114
-      Script: {instanceID: 3878}
+      Script: {instanceID: 3842}
     - Class: 114
-      Script: {instanceID: 4074}
+      Script: {instanceID: 3902}
     - Class: 114
-      Script: {instanceID: 4176}
+      Script: {instanceID: 4098}
     - Class: 114
-      Script: {instanceID: 4258}
+      Script: {instanceID: 4200}
     - Class: 114
-      Script: {instanceID: 4460}
+      Script: {instanceID: 4282}
     - Class: 114
-      Script: {instanceID: 4506}
+      Script: {instanceID: 4486}
     - Class: 114
-      Script: {instanceID: 4980}
+      Script: {instanceID: 4532}
+    - Class: 114
+      Script: {instanceID: 4918}
+    - Class: 114
+      Script: {instanceID: 5012}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -143,6 +151,8 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -159,6 +169,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 24c74cc0d527a06113f2b967042769f0
@@ -195,6 +211,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEngine.XR.LegacyInputHelpers
     className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DEMO_DestroyWindow
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -275,6 +297,12 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NativeShare.Runtime.dll
+    namespaceName: NativeShareNamespace
+    className: NSShareResultCallbackiOS
+  - hash:
+      serializedVersion: 2
       Hash: 524a8f7c9b60f50a1c6bbe7185c0207e
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -291,6 +319,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 53568b353c2f4e4374b3d4f5dad33c67
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ARInteractionsManager
   - hash:
       serializedVersion: 2
       Hash: 91d258529db2b5060a913f2afcea1a21
@@ -315,6 +349,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 3e6ce26cb6dd5b5ebef39f8649b129a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DEMO_GraphicsManager
   - hash:
       serializedVersion: 2
       Hash: 37a13922678947e6d144f41a7195154a
@@ -377,6 +417,12 @@ ScriptsOnlyBuild:
     className: UIManager
   - hash:
       serializedVersion: 2
+      Hash: a7b4d95ee905fc6c8aad848d6c364993
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DEMO_NavigationInformation
+  - hash:
+      serializedVersion: 2
       Hash: 0c5108545fb925730d4d5887ebcdd20c
     assemblyName: Unity.XR.ARSubsystems.dll
     namespaceName: UnityEngine.XR.ARSubsystems
@@ -431,6 +477,12 @@ ScriptsOnlyBuild:
     className: AROcclusionManager
   - hash:
       serializedVersion: 2
+      Hash: 1ae042f5d07ae250c26eb82bb0e2f11b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DEMO_SceneNavigation
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -471,12 +523,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPointCloudManager
-  - hash:
-      serializedVersion: 2
-      Hash: 69415240821be7986b27e72bf9609a30
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
   - hash:
       serializedVersion: 2
       Hash: 290afc8da8e459e0b8dc7444bfaf5e35
@@ -785,10 +831,22 @@ ScriptsOnlyBuild:
     className: XRReferenceImageLibrary
   - hash:
       serializedVersion: 2
+      Hash: bef6f2b6414a12c77b4da23cd6242a3a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DEMO_CreateWindowShareLink
+  - hash:
+      serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NativeShare.Runtime.dll
+    namespaceName: NativeShareNamespace
+    className: NSCallbackHelper
   - hash:
       serializedVersion: 2
       Hash: 1bc03a501323d00d0037a6b76d25a3ba
@@ -879,6 +937,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DEMO_SoundManager
   platform: 13
   scenePathNames:
   - Assets/Scene1.unity

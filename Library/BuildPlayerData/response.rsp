@@ -1,5 +1,6 @@
 -a="C:\Users\benja\Desktop\Aplicacion Realidad Aumentada\New Unity Project\Library\PlayerScriptAssemblies\Assembly-CSharp-firstpass.dll"
 -a="C:\Users\benja\Desktop\Aplicacion Realidad Aumentada\New Unity Project\Library\PlayerScriptAssemblies\Assembly-CSharp.dll"
+-a="C:\Users\benja\Desktop\Aplicacion Realidad Aumentada\New Unity Project\Library\PlayerScriptAssemblies\NativeShare.Runtime.dll"
 -a="C:\Users\benja\Desktop\Aplicacion Realidad Aumentada\New Unity Project\Library\PlayerScriptAssemblies\UnityEngine.TestRunner.dll"
 -a="C:\Users\benja\Desktop\Aplicacion Realidad Aumentada\New Unity Project\Library\PlayerScriptAssemblies\Unity.Timeline.dll"
 -a="C:\Users\benja\Desktop\Aplicacion Realidad Aumentada\New Unity Project\Library\PlayerScriptAssemblies\Unity.TextMeshPro.dll"
