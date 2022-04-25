@@ -4,7 +4,7 @@ using UnityEngine;
 using System.IO;
 using UnityEngine.XR.ARFoundation;
 
-public class ShareScreem : MonoBehaviour
+public class ShareScreenShot : MonoBehaviour
 {
 	[SerializeField] private GameObject mainMenuCanvas;
 	private ARPointCloudManager aRPointCloudManager;

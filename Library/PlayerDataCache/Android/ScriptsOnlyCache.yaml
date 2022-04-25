@@ -6,6 +6,8 @@ ScriptsOnlyBuild:
     - GameManager
     - Item
     - ItemButtonManager
+    - ServerManager
+    - ShareScreenShot
     - UIManager
     DOTween.dll:
     - DG.Tweening.Core.DOTweenSettings
@@ -91,55 +93,59 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2058}
     - Class: 114
-      Script: {instanceID: 2160}
+      Script: {instanceID: 2092}
     - Class: 114
-      Script: {instanceID: 2226}
+      Script: {instanceID: 2162}
     - Class: 114
-      Script: {instanceID: 2310}
+      Script: {instanceID: 2228}
     - Class: 114
-      Script: {instanceID: 2526}
+      Script: {instanceID: 2312}
     - Class: 114
-      Script: {instanceID: 2560}
+      Script: {instanceID: 2528}
     - Class: 114
-      Script: {instanceID: 2654}
+      Script: {instanceID: 2562}
     - Class: 114
-      Script: {instanceID: 2756}
+      Script: {instanceID: 2656}
     - Class: 114
-      Script: {instanceID: 2878}
+      Script: {instanceID: 2758}
     - Class: 114
-      Script: {instanceID: 3096}
+      Script: {instanceID: 2880}
     - Class: 114
-      Script: {instanceID: 3110}
+      Script: {instanceID: 3098}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3112}
     - Class: 114
-      Script: {instanceID: 3396}
+      Script: {instanceID: 3210}
     - Class: 114
-      Script: {instanceID: 3402}
+      Script: {instanceID: 3398}
     - Class: 114
-      Script: {instanceID: 3406}
+      Script: {instanceID: 3404}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3408}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3468}
     - Class: 114
-      Script: {instanceID: 3842}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 3902}
+      Script: {instanceID: 3844}
     - Class: 114
-      Script: {instanceID: 4098}
+      Script: {instanceID: 3904}
     - Class: 114
-      Script: {instanceID: 4200}
+      Script: {instanceID: 4102}
     - Class: 114
-      Script: {instanceID: 4282}
+      Script: {instanceID: 4204}
     - Class: 114
-      Script: {instanceID: 4486}
+      Script: {instanceID: 4286}
     - Class: 114
-      Script: {instanceID: 4532}
+      Script: {instanceID: 4490}
     - Class: 114
-      Script: {instanceID: 4918}
+      Script: {instanceID: 4536}
     - Class: 114
-      Script: {instanceID: 5012}
+      Script: {instanceID: 4678}
+    - Class: 114
+      Script: {instanceID: 4922}
+    - Class: 114
+      Script: {instanceID: 5016}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -295,6 +301,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 333a16957f1a2bf11353545d17809bde
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ServerManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -859,6 +871,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARParticipant
+  - hash:
+      serializedVersion: 2
+      Hash: e8164ce712d50c1198c66fd4f1835894
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShareScreenShot
   - hash:
       serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270

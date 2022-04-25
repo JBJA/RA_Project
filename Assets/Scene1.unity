@@ -617,6 +617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 352948573}
   - component: {fileID: 352948572}
+  - component: {fileID: 352948574}
   m_Layer: 0
   m_Name: ARInteractionsManager
   m_TagString: Untagged
@@ -652,6 +653,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &352948574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352948571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcba4eaf1bf4a554ebde213e15341297, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuCanvas: {fileID: 346450860}
 --- !u!1 &444088854
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,7 +868,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 174014.97, y: 5064.7856}
+  m_AnchoredPosition: {x: 320719.3, y: 9598.218}
   m_SizeDelta: {x: 0, y: 440}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &646953024
@@ -1583,6 +1597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1298794380}
   - component: {fileID: 1298794379}
+  - component: {fileID: 1298794381}
   m_Layer: 0
   m_Name: DataManager
   m_TagString: Untagged
@@ -1597,7 +1612,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298794378}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 015ad3cc8f54856468949461355ad88e, type: 3}
   m_Name: 
@@ -1624,6 +1639,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1298794381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298794378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1310e12aa12211a4fa22c63b110aacf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jsonURL: https://drive.google.com/uc?export=download&id=1QBf1I315HPrLcGszGKUGiJpp8RPsNwq5
+  itemButtonManager: {fileID: 5307473426485893621, guid: e023d2439556f974a9ee0ea7b595c77a, type: 3}
+  buttonsContainer: {fileID: 646953022}
+  newItemsCollection:
+    items: []
 --- !u!1 &1318324765
 GameObject:
   m_ObjectHideFlags: 0
@@ -2180,7 +2212,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1811698918}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 352948574}
+        m_TargetAssemblyTypeName: ShareScreenShot, Assembly-CSharp
+        m_MethodName: TakeScreenShot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1811698918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2201,7 +2245,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a6e113b44ef3db3469a456f1ca5a6c10, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc25f18bf1cb4314babfaaaf9da9abac, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
